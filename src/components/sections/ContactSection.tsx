@@ -91,7 +91,7 @@ const ContactSection: React.FC = () => {
                   </div>
                   <div>
                     <p className="font-semibold text-gray-900">Localisation</p>
-                    <p className="text-gray-600">Montpellier, France</p>
+                    <p className="text-gray-600">Nantes, France</p>
                   </div>
                 </div>
               </div>
@@ -102,8 +102,7 @@ const ContactSection: React.FC = () => {
                 Réponse rapide garantie
               </h4>
               <p className="text-gray-600">
-                Je m'engage à répondre à tous les messages dans les 24h. 
-                Pour les projets urgents, n'hésitez pas à le préciser dans votre message.
+                Je m'engage à répondre à tous les messages le plus tôt possible.
               </p>
             </div>
           </div>
