@@ -9,11 +9,12 @@ const SkillsSection: React.FC = () => {
       icon: <TrendingUp size={32} />,
       color: "bg-blue-500",
       skills: [
-        { name: "SEO/SEA", level: 90 },
-        { name: "Google Analytics", level: 85 },
-        { name: "Marketing Automation", level: 88 },
-        { name: "Growth Hacking", level: 92 },
-        { name: "A/B Testing", level: 87 }
+        { name: "SEO/SEA", level: 70 },
+        { name: "Automatisation (Make, N8N)", level: 90 },
+        { name: "Réflexion stratégique", level: 80 },
+        { name: "A/B Testing", level: 80 },
+        { name: "Campagne mailing", level: 70 },
+        { name: "Scrapping & Enrichissement", level: 80 }
       ]
     },
     {
@@ -22,11 +23,12 @@ const SkillsSection: React.FC = () => {
       icon: <Code size={32} />,
       color: "bg-green-500",
       skills: [
-        { name: "JavaScript/TypeScript", level: 88 },
-        { name: "React.js", level: 85 },
-        { name: "Node.js", level: 80 },
+        { name: "JavaScript", level: 88 },
+        { name: "CSS3", level: 85 },
+        { name: "PHP", level: 80 },
         { name: "HTML/CSS", level: 95 },
-        { name: "PHP", level: 75 }
+        { name: "LUA", level: 65 },
+        { name: "SQL", level: 95 }
       ]
     },
     {
@@ -35,11 +37,8 @@ const SkillsSection: React.FC = () => {
       icon: <BarChart3 size={32} />,
       color: "bg-purple-500",
       skills: [
-        { name: "Google Analytics", level: 90 },
-        { name: "Google Tag Manager", level: 88 },
-        { name: "Data Studio", level: 85 },
-        { name: "Excel/Sheets", level: 92 },
-        { name: "SQL", level: 78 }
+        { name: "Google Analytics", level: 60 },
+        { name: "Google Tag Manager", level: 70 }
       ]
     },
     {
@@ -52,33 +51,34 @@ const SkillsSection: React.FC = () => {
         { name: "PostgreSQL", level: 80 },
         { name: "MongoDB", level: 75 },
         { name: "Supabase", level: 85 },
-        { name: "Firebase", level: 78 }
+        { name: "Notion", level: 78 },
+        { name: "Airtable", level: 75 },
       ]
     },
     {
       id: 5,
-      title: "Design & UX",
+      title: "Créativité",
       icon: <Palette size={32} />,
       color: "bg-pink-500",
       skills: [
-        { name: "Figma", level: 80 },
-        { name: "Adobe Creative Suite", level: 75 },
-        { name: "UI/UX Design", level: 82 },
-        { name: "Wireframing", level: 85 },
-        { name: "Prototyping", level: 78 }
+        { name: "Canva", level: 80 },
+        { name: "Premiere Pro", level: 75 },
+        { name: "CapCut", level: 100 },
+        { name: "After Effect", level: 60 },
+        { name: "Sony Vegas Pro", level: 80 }
       ]
     },
     {
       id: 6,
-      title: "Management & Soft Skills",
+      title: "Autres",
       icon: <Users size={32} />,
       color: "bg-red-500",
       skills: [
-        { name: "Gestion d'équipe", level: 88 },
-        { name: "Communication", level: 92 },
-        { name: "Gestion de projet", level: 90 },
-        { name: "Formation", level: 85 },
-        { name: "Négociation", level: 87 }
+        { name: "Wordpress", level: 80 },
+        { name: "Prestashop", level: 70 },
+        { name: "MAKE", level: 90 },
+        { name: "N8N", level: 70 },
+        { name: "DROPCONTACT", level: 70 }
       ]
     }
   ];
