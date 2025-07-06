@@ -43,7 +43,7 @@ const Header: React.FC<HeaderProps> = ({ sections }) => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <h1 className="text-xl font-bold text-gray-900">Vincent Gillaux</h1>
+            <h1 className="text-xl font-bold text-gray-900">Vinzverse</h1>
           </div>
 
           {/* Desktop Navigation */}

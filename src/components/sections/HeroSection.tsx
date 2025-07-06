@@ -14,24 +14,23 @@ const HeroSection: React.FC = () => {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="mb-8">
           <img
-            src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop"
-            alt="Vincent Gillaux"
+            src="/img/vincentg_pp.png"
+            alt="moi"
             className="w-40 h-40 rounded-full mx-auto mb-8 object-cover shadow-lg"
           />
         </div>
         
         <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
-          Vincent Gillaux
+          Vincent G.
         </h1>
         
         <p className="text-xl md:text-2xl text-gray-600 mb-8">
-          Growth Marketer & Développeur
+          Growth Hacker / Marketing Digital
         </p>
         
         <p className="text-lg text-gray-700 mb-12 max-w-2xl mx-auto leading-relaxed">
-          Passionné par l'optimisation de la croissance et le développement web, 
-          je combine stratégie marketing et compétences techniques pour créer 
-          des solutions innovantes et performantes.
+        Ancien développeur, et actuellement en reconversion pour être Growth Hacker, je combine stratégie marketing et compétences
+        techniques pour créer des solutions innovantes et performantes.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
