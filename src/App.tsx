@@ -3,6 +3,8 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-d
 import { AuthProvider } from './contexts/AuthContext';
 import Home from './pages/Home';
 import MesVideos from './pages/mes-videos';
+import MesVisuels from './pages/mes-visuels';
+import ProjetsDev from './pages/projetdev';
 import LoginPage from './components/admin/LoginPage';
 import AdminLayout from './components/admin/AdminLayout';
 import Dashboard from './components/admin/Dashboard';
@@ -20,6 +22,8 @@ function App() {
           {/* Public routes */}
           <Route path="/" element={<Home />} />
           <Route path="/mes-videos" element={<MesVideos />} />
+          <Route path="/mes-visuels" element={<MesVisuels />} />
+          <Route path="/projets-dev" element={<ProjetsDev />} />
           <Route path="/admin/login" element={<LoginPage />} />
           
           {/* Admin routes */}

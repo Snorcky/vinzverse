@@ -20,18 +20,11 @@ const Footer: React.FC = () => {
             <h3 className="text-lg font-semibold mb-4">Réseaux sociaux</h3>
             <div className="flex space-x-4">
               <a
-                href="#"
+                href="https://www.linkedin.com/in/gvincentlip/"
                 className="hover:text-gray-300 transition-colors"
                 aria-label="LinkedIn"
               >
                 <Linkedin size={24} />
-              </a>
-              <a
-                href="#"
-                className="hover:text-gray-300 transition-colors"
-                aria-label="GitHub"
-              >
-                <Github size={24} />
               </a>
             </div>
           </div>
