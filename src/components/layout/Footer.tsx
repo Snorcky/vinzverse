@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
             <h3 className="text-lg font-semibold mb-4">Contact</h3>
             <div className="flex items-center space-x-2 mb-2">
               <Mail size={18} />
-              <span>gillaux.vincent@gmail.com</span>
+              <span>me@vinzvers.com</span>
             </div>
           </div>
 
@@ -31,12 +31,12 @@ const Footer: React.FC = () => {
 
           {/* Admin Link */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">Administration</h3>
+            <h3 className="text-lg font-semibold mb-4">Informations</h3>
             <a
-              href="/admin"
+              href="/moncv.pdf"
               className="text-gray-300 hover:text-white transition-colors"
             >
-              Connexion administrateur
+              Voir mon CV
             </a>
           </div>
         </div>
